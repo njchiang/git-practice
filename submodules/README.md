@@ -77,13 +77,13 @@ There are two steps to removing a submodule.
 1. Delete the relevant line from the .gitmodules file
 
 ```
-git submodule deinit -f -- submodule
+git submodule deinit -f -- my-submodule
 ```
 
 2. delete the directory
 
 ```
-git rm submodule
+git rm my-submodule
 ```
 
 ## Cloning a repo with submodules
