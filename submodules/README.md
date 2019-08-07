@@ -15,6 +15,8 @@ If you haven't already, clone this repo.
 git clone git@github.com:njchiang/submodule-practice.git
 ```
 
+and cd into the `submodules` directory.
+
 ## Adding a submodule
 Let's add the `dummy-submodule` repository using `git submodule`. in this case we'll rename it `my-submodule`
 
