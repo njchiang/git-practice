@@ -12,7 +12,7 @@ Let's assume we have a repository (`dummy-submodule` in this case) that we want 
 If you haven't already, clone this repo.
 
 ```
-git clone git@github.com:njchiang/submodule-practice.git
+git clone git@github.com:njchiang/git-practice.git
 ```
 
 and cd into the `submodules` directory.
