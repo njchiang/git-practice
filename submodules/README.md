@@ -73,7 +73,7 @@ Also, by default, `git push` will not push the submodule changes. Specify `--rec
 
 
 ## Removing a submodule
-There are two steps to removing a submodule.
+There are three steps to removing a submodule.
 1. Delete the relevant line from the .gitmodules file
 
 ```
@@ -84,6 +84,12 @@ git submodule deinit -f -- my-submodule
 
 ```
 git rm my-submodule
+```
+
+3. delete the module in .git
+
+```
+rm -rf .git/modules/my-submodule
 ```
 
 ## Cloning a repo with submodules
